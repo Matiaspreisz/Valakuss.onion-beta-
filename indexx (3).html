@@ -1,0 +1,304 @@
+<html lang="es"> 
+ <head><style type="text/css" id="dcoder_stylesheet">body {
+    background-color: black;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 5px red;
+    color: #ff4500;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about, #clowns, #rules, #links {
+    color: red;
+    text-decoration: none;
+}
+
+.warning {
+    color: cyan;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.caution {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.caution p:first-child {
+    font-weight: bold;
+}
+
+.section-link {
+    margin-top: 30px;
+}
+
+.section-link p {
+    color: red;
+    font-size: 1.5em;
+}
+
+.demon-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+}
+.contenedor-botones {
+  display: flex;
+}
+
+.boton-carro {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 10px; /* Espacio entre los botones */
+}
+
+.boton-carro::before,
+.boton-carro::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.boton-carro::before {
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.boton-carro::after {
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.boton-carrito {
+  background-color: red;
+  color: Black;
+  border: Red;
+  padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+.boton-carrito:hover {
+  background-color: #cc0000; /* Color de resaltado en hover */
+}
+
+.icono-carrito {
+  margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.icono-carrito::before {
+  content: "\1F6D2"; /* Código Unicode para el ícono del carrito */
+  font-size: 20px;
+  vertical-align: middle;
+}</style></head> 
+ <body> 
+  <h1> </h1> 
+  <div> 
+   <br> 
+  </div> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Valakuss</title> 
+  <link rel="stylesheet" href="styles.css"> 
+  <div class="container"> 
+   <header> 
+    <h1>Valakuss</h1> 
+    <nav> 
+     <ul> 
+      <li><a href="#about">[about]</a></li> 
+      <li><a href="#sex">[sex]</a></li> 
+      <li><a href="#drugs">[drugs]</a></li> 
+      <li><a href="#guns">[guns]</a></li> 
+      <li><a href="#clowns">[clowns]</a></li> 
+      <li><a href="#rules">[rules]</a></li> 
+      <li><a href="#links">[links]</a></li> 
+      <li><a href="#...">[...]</a></li> 
+     </ul> 
+    </nav> 
+   </header> 
+   <main> 
+    <section id="welcome"> 
+     <h2>valakuss.onion</h2> 
+     <p class="warning">EL DIABLO ESTÁ CERCA</p> 
+     <div class="caution"> 
+      <p>_CAUTION_</p> 
+      <p>Nuestro demonio te está vigilando</p> 
+     </div> 
+     <div class="section-link"> 
+      <p>[CLOWNS]</p> 
+     </div> 
+    </section> 
+   </main> 
+  </div> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Mi Página</title> 
+  <style>
+        /* Tus otros estilos */
+        body {
+            background-color: black;
+            color: red;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .dates {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-align: right;
+        }
+        .dates p {
+            margin: 0;
+        }
+    </style> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Clowns on Scroll</title> 
+  <style>
+        body {
+            height: 200vh; /* Hace la página lo suficientemente alta para permitir el scroll */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .clowns-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        .clowns-container.visible {
+            opacity: 1;
+        }
+        .clown {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }
+    </style> 
+  <div class="clowns-container"> 
+   <img src="alt= class=" juastaroth"> 
+   <img src="alt=  class=" clown"> 
+  </div> 
+  <script>
+        window.addEventListener('scroll', functñpn() {
+            const clownsContainer = document.querySelector('.clowns-container');
+            if (window.scrollY > 100) { // Ajusta el umbral de desplazamiento según sea necesario
+                clownsContainer.classList.add('visible');
+            } else {
+                clownsContainer.classList.remove('visible');
+            }
+        });
+    </script> 
+  <div class="contenedor-botones"> <button class="boton-carro">Agregar al Carro</button> <button class="boton-carro">Agregar al Carro</button> 
+  </div> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Redirección con Imagen</title> 
+  <style>   
+ </body>
+</html></style> <button;"button-class-row"></button;"button-class-row"> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Payasos</title> 
+  <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        .clown-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 10px;
+        }
+        .clown {
+            width: 45%;
+            margin: 5px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style> 
+  <div class="clown-container"> 
+   <div class="clown"> 
+    <img src="https://i.pinimg.com/236x/f6/55/76/f6557699be7f7f7f2d7cd3e738bd5023.jpg" alt="AZAZEL,41"> 
+   </div> 
+   <div class="clown"> 
+    <img src="https://i.pinimg.com/236x/a2/c5/be/a2c5beae2498eb4524620a1b35c5b1df.jpg" alt="LULI,29"> 
+   </div> 
+  </div> 
+  <div class="clown-container"> 
+   <div class="clown"> 
+    <img src="https://i0.wp.com/www.sinembargo.mx/wp-content/uploads/2018/09/wasco.jpg?w=700&amp;quality=80&amp;strip=all&amp;ssl=1" alt="GOLIATH,32"> 
+   </div> 
+   <div class="clown"> 
+    <img src="https://i.pinimg.com/236x/84/ab/3a/84ab3a5b4911a084de00ae3d8045e1b4.jpg" alt="MINIMINI,43"> 
+   </div> 
+  </div> 
+  <div class="clown-container"> 
+   <div class="clown"> 
+    <img src="https://via.placeholder.com/150" alt="Payaso 5"> 
+   </div> 
+   <div class="clown"> 
+    <img src="https://via.placeholder.com/150" alt="Payaso 6"> 
+   </div> 
+  </div> 
+  <div class="clown-container"> 
+   <div class="clown"> 
+    <img src="https://via.placeholder.com/150" alt="Payaso 7"> 
+   </div> 
+   <div class="clown"> 
+    <img src="https://via.placeholder.com/150" alt="Payaso 8"> 
+   </div> 
+  </div> 
+ 
+</body></html>
